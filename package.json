@@ -1,0 +1,10 @@
+{
+  "name": "tlog",
+  "private": true,
+  "scripts": {
+    "mobile": "pnpm --filter @tlog/mobile start",
+    "ios": "pnpm --filter @tlog/mobile ios",
+    "android": "pnpm --filter @tlog/mobile android",
+    "typecheck": "pnpm -r --if-present typecheck"
+  }
+}
